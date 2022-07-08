@@ -31,7 +31,7 @@ body {
 /* base styles */
 
 .header-logo {
-  font-family: --secondary-font;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -50,6 +50,7 @@ body {
   text-transform: uppercase;
   color: var(--btn-txt-cl);
 }
+
 .btn {
   font-family: inherit;
   font-weight: 700;
@@ -75,17 +76,15 @@ body {
 
 /* Header section */
 
-.header-phone-dark {
-  color: var(--dark-txt-cl);
-}
-
 .header-link,
 .header-phone {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--main-txt-cl);
+}
+.header-contacts-item {
+  color: var(--dark-txt-cl);
 }
 .header-link:hover,
 .header-link:focus,
@@ -146,7 +145,7 @@ body {
   background-color: var(--dark-bg-cl);
 }
 .footer-logo {
-  font-family: --secondary-font;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -172,4 +171,35 @@ body {
 .contacts-phone:hover,
 .contacts-phone:focus {
   color: var(--accent-txt-cl);
+}
+
+/* Portfolio page */
+.portfolio-list,
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--accent-txt-cl);
+}
+.active-current {
+  color: var(--accent-txt-cl);
+}
+.title-project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.function-project {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+
+  color:var(--dark-txt-cl);
 }
