@@ -58,7 +58,7 @@ body {
   line-height: 1.88;
   display: flex;
   letter-spacing: 0.06em;
-  background-color: transparent;
+  background-color:var(--accent-txt-cl);
   cursor: pointer;
 }
 .btn:hover,
@@ -133,7 +133,6 @@ body {
   letter-spacing: 0.03em;
 }
 .team-desc {
-  font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--dark-txt-cl);
@@ -154,6 +153,7 @@ body {
 /* Contacts section */
 
 .contacts-address {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
