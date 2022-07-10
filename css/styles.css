@@ -173,6 +173,7 @@ body {
 /* Portfolio page */
 .portfolio-list,
 .portfolio-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -193,9 +194,7 @@ body {
   letter-spacing: 0.06em;
 }
 .function-project {
-  font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-
   color:var(--dark-txt-cl);
 }
